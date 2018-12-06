@@ -1,0 +1,37 @@
+.input{
+    display: block;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    border-bottom: 2px solid rgb(45, 107, 221);
+    width: 420px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-size: 28px;
+    margin-top: 50px;
+}
+.container{
+    width: 450px;
+    height:50vh;
+    margin: auto;
+    border-color:none;
+    margin-top: 25vh
+}
+.signInButton{
+    margin: 30px;
+    width: 150px;
+    height:60px;
+    border-radius: 30px;
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    float: right;
+    border: 2px solid rgb(45, 107, 221);
+    color: rgb(45, 107, 221)
+}
+.signInButton:hover{
+    border: 2px solid rgb(45, 107, 221);
+    color:white;
+    transition: linear 200ms;
+    background: rgb(45, 107, 221)
+}

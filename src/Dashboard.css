@@ -1,0 +1,129 @@
+.dashboardoff{
+    width: 100%;
+    opacity: 0.1;
+    transition: linear 300ms;
+}
+.dashboardon{
+    width: 100%;
+    z-index: -1;
+    transition: linear 300ms;
+}
+
+.dashboardpage{
+    width: 100%;
+}
+
+.items{
+    width: 80%;
+    margin: auto;
+    padding-top: 10px;
+    padding-left: 60px;
+    padding-bottom: 5px; 
+    border: 1px solid rgb(45, 107, 221);
+    margin-top: 10px; 
+    border-radius: 10px
+}
+
+.navbardash{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: rgb(45, 107, 221);
+    margin: 5px;
+}
+.navhead{
+    display: inline;
+    color: white;
+    padding-left: 30px; 
+}
+.navadm{
+    display: inline;
+    color: white
+}
+.title{
+    color: rgb(45, 107, 221)
+}
+.para{
+    color: rgb(65, 65, 146)
+}
+.bidval{
+    color:rgb(45, 107, 221);
+    display: block;
+}
+.itembut{
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    width: 80px;
+    height:30px;
+    border-radius: 30px;
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    border: 2px solid rgb(45, 107, 221);
+    color: rgb(45, 107, 221)
+}
+.itembut:hover{
+    border: 2px solid rgb(45, 107, 221);
+    color:white;
+    transition: linear 200ms;
+    background: rgb(45, 107, 221)
+}
+.addbut{
+    margin-top: 30px;
+    margin-right: 10px;
+    width: 100px;
+    height:40px;
+    border-radius: 30px;
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+    border: 2px solid rgb(45, 107, 221);
+    color: rgb(45, 107, 221);
+}
+.addbut:hover{
+    border: 2px solid rgb(45, 107, 221);
+    color:white;
+    transition: linear 200ms;
+    background: rgb(45, 107, 221)
+}
+.butdiv{
+    text-align: right;
+    width: 85%;
+    margin: auto;
+}
+.popupoff{
+    display: none;
+    transition: linear 300ms;
+}
+.popupon{
+    width: 60%;
+    margin: auto;
+    border: 2px solid rgb(45, 107, 221);  
+    border-radius: 10px;
+    margin-top:100px;
+    z-index: 10;
+    position: absolute;
+    left: 0;
+    right: 0;
+    background-color: rgb(230, 237, 240);
+    transition: linear 300ms;
+}
+.popinputtitle{
+    border: 2px solid rgb(45, 107, 221);
+    width: 300px;
+    height: 5vh;
+    border-radius: 10px;
+    margin: 30px;
+}
+.popinputdesc{
+    width:600px;
+    border: 2px solid rgb(45, 107, 221);
+    display: block;
+    margin: 30px;
+    height: 20vh;
+    border-radius: 10px
+}
+.save{
+    margin: 30px;
+    margin-top: 0px;
+}
